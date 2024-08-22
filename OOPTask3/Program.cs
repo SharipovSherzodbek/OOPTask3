@@ -8,7 +8,7 @@ class Program
     {
         Console.WriteLine("Welcome to OOP Task 3");
         Console.WriteLine("\n_____________________Task 1_____________________ ");
-        Console.WriteLine("Enter a grade (Excellent, Good, Average, Poor):");
+        Console.WriteLine("Enter a grade to find students with that mark (Options: Excellent, Good, Average, Poor):");
         string inputMark = Console.ReadLine();
 
         List<Student> students = new List<Student>()
